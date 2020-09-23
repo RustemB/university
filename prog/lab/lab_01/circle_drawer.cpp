@@ -3,7 +3,7 @@
 #define Y 42
 #include <cstdio>
 
-int main(int argc, char *argv[]) {
+int main() {
   for (int y = -Y / 2; y < Y / 2; y++) {
     for (int x = -X / 2; x < X / 2; x++) {
       if ((x * x + y * y < R * R)) {
