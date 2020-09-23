@@ -2,10 +2,7 @@
 
 typedef unsigned long long int ulli;
 
-ulli fact(ulli n) {
-  if (n < 2) return 1;
-  else return n * fact(n - 1);
-}
+ulli fact(ulli n) { return n < 2 ? 1 : n * fact(n - 1); }
 
 int main() {
   ulli num;
