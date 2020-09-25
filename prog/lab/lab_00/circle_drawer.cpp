@@ -1,6 +1,6 @@
 #define R 20
 #define X 42
-#define Y 42
+#define Y X
 #include <cstdio>
 
 int main() {
