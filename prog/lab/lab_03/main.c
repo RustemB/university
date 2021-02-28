@@ -6,12 +6,12 @@ void strlen_test() {
     printf("strlen1(\"%s\") = %d // (must be 0)\n", "", strlen1(""));
     printf("strlen2(\"%s\") = %d // (must be 0)\n", "", strlen2(""));
     printf("strlen3(\"%s\") = %d // (must be 0)\n", "", strlen3(""));
-    /* printf("strlen4(\"%s\") = %d // (must be 0)\n", "", strlen4("")); */
+    printf("strlen4(\"%s\") = %d // (must be 0)\n", "", strlen4(""));
 
     printf("strlen1(\"%s\") = %d // (must be 5)\n", "Linux", strlen1("Linux"));
     printf("strlen2(\"%s\") = %d // (must be 7)\n", "Windows", strlen2("Windows"));
     printf("strlen3(\"%s\") = %d // (must be 5)\n", "macOS", strlen3("macOS"));
-    /* printf("strlen4(\"%s\") = %d // (must be 7)\n", "FreeBSD", strlen4("FreeBSD")); */
+    printf("strlen4(\"%s\") = %d // (must be 7)\n", "FreeBSD", strlen4("FreeBSD"));
     printf("\n");
 }
 
